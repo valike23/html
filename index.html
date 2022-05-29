@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>multi media tags</title>
+
+    <style>
+        iframe {
+            width: 100vw;
+            height: 40vh;
+        }
+        embed {
+            width: 100vw;
+            height: 40vh;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <img
+        src="./images/boy.jpeg"
+        width="500"
+        height="400"
+        alt="an african boy"
+      /><span>a span element</span>
+    </div>
+    <div>
+
+        <video autoplay muted controls src="./videos/moana.mp4">
+
+        </video>
+    
+    </div>
+
+    <div>
+        <iframe src="https://wonderfall.netlify.app/" frameborder="0"></iframe>
+        <iframe  src="https://www.youtube.com/embed/x1Bcq0RPGt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="./images/boy.jpeg" frameborder="0"></iframe>
+       <iframe src="./pdfs/good.pdf" frameborder="0"></iframe>
+    </div>
+    <div>
+
+        <embed src="./pdfs/good.pdf" type="application/pdf">
+    </div>
+
+  </body>
+</html>
