@@ -1,0 +1,39 @@
+
+
+div {
+    color: blue;
+    background-color: whitesmoke;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+p {
+    color: aqua;
+    background-color: purple;
+}
+
+
+body {
+    background-image: url('../images/bg.jpg');
+
+    background-size: cover;
+}
+
+#para {
+    font-size: larger;
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    border: 9px double rgb(56, 206, 146);
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400;
+    font-family: 'Dongle', sans-serif;
+
+}
+
+
+.small-text {
+    font-size: small;
+}
